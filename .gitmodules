@@ -1,0 +1,3 @@
+[submodule "jaffle-shop"]
+	path = jaffle-shop
+	url = https://github.com/jessicaschueler/jaffle-shop-classic
