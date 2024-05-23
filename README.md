@@ -16,8 +16,4 @@ To run this, you'll need:
 
 The DAGs in this repo are meant to illustrate how to run dbt in Airflow using Cosmos. They use dbt's jaffle_shop example project.
 
-The DAGs fall into three categories:
-
-- Basic: these are the simplest examples of Cosmos
-- Profiles: these show how to customize your dbt profiles using Cosmos
-- Filtering: these show how to use Cosmos to filter which models are run
+This example utilizes git [submodules](https://github.blog/2016-02-01-working-with-submodules/) to keep the dbt example project, jaffle-shop, in a seperate repo. 
