@@ -1,7 +1,6 @@
 name: Run dbt ls
 
-on:
-  workflow_dispatch:
+on: push
 
 jobs:
   action:
