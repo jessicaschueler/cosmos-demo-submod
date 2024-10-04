@@ -1,0 +1,5 @@
+- name: dbt action
+  uses: mwhitaker/dbt-action@v1.7.3
+  with:
+    dbt_command: "dbt ls --output json > target/manifest.json"
+    dbt_project_folder: "jaffle-shop"
